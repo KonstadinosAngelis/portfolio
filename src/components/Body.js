@@ -1,27 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
-import htmlSymbol from '../imgs/html.png'
-import reactSmybol from '../imgs/react.png'
+import htmlSymbol from '../imgs/html.jpg'
+import reactSmybol from '../imgs/react.jpg'
 import pythonSymbol from '../imgs/python.png'
+import javascriptSymbol from '../imgs/javascript.png'
+import postgresSymbol from '../imgs/postgres.jpg'
+import reduxSymbol from '../imgs/redux.jpg'
 
 function Body() {
-    return(
+    return (
         <Wrapper>
-            <NavBar>
-                <NavButton>Button 1</NavButton>
-                <NavButton>Button 2</NavButton>
-                <NavButton>Button 3</NavButton>
-                <NavButton>Button 4</NavButton>
-            </NavBar>
-                <LanguageHeader>Languages</LanguageHeader>
+            <LanguageHeader>Languages</LanguageHeader>
             <MySkills>
-                <CodeSkill><img src = {reactSmybol} width="150px"   height="150px" style={{border: "2px solid #f2f2f2", borderRadius: "100%"}}/>Test1</CodeSkill>
-                <CodeSkill><img src = {pythonSymbol}  width="150px" height="150px" style={{border: "2px solid #f2f2f2", borderRadius: "100%"}}/>Test2</CodeSkill>
-                <CodeSkill><img src = {htmlSymbol}  width="150px"   height="150px" style={{border: "2px solid #f2f2f2", borderRadius: "100%"}}/>Test3</CodeSkill>            
+                <CodeSkill><img src={reactSmybol} width="150px" height="150px" style={{ border: "2px solid #f2f2f2", borderRadius: "100%"}} alt="React Symbol"/>React</CodeSkill>
+                <CodeSkill><img src={pythonSymbol} width="150px" height="150px" style={{ border: "2px solid #f2f2f2", borderRadius: "100%" }} alt="Python Symbol"/>Python</CodeSkill>
+                <CodeSkill><img src={javascriptSymbol} width="150px" height="150px" style={{ border: "2px solid #f2f2f2", borderRadius: "100%" }} alt="Javascript Symbol"/>Javascript</CodeSkill>
             </MySkills>
-
+            <MySkills>
+                <CodeSkill><img src={postgresSymbol} width="150px" height="150px" style={{ border: "2px solid #f2f2f2", borderRadius: "100%" }} alt="Postgres Symbol"/>Postgres</CodeSkill>
+                <CodeSkill><img src={reduxSymbol} width="150px" height="150px" style={{ border: "2px solid #f2f2f2", borderRadius: "100%" }} alt="Redux Symbol"/>Redux</CodeSkill>
+                <CodeSkill><img src={htmlSymbol} width="150px" height="150px" style={{ border: "2px solid #f2f2f2", borderRadius: "100%" }} alt="HTML Symbol"/>HTML</CodeSkill>
+            </MySkills>
         </Wrapper>
-)}
+    )
+}
 
 const Wrapper = styled.div`
     background-color: white;
@@ -30,23 +32,6 @@ const Wrapper = styled.div`
     align-items: center;
     width: 80%;
     border: 1px solid white;
-    border-radius 5px;
-`
-
-const NavBar = styled.nav`
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2%;
-    padding: 1.5% 0%;
-    background-color: #F7F7F7;
-    `
-    
-const NavButton = styled.button`
-    color: black;
-    padding: 0.2% 0%;
-    margin: 0% 2%;
-    border: 1px gray solid;
 `
 
 const MySkills = styled.div`
@@ -59,7 +44,7 @@ const LanguageHeader = styled.h2`
     color: #636363;
     padding-bottom: 1%;
     border-bottom: 2px solid black;
-
+    margin-bottom: 3%;
 `
 const CodeSkill = styled.div`
     display : flex;
@@ -67,6 +52,8 @@ const CodeSkill = styled.div`
     align-items: center;
     color: #636363;
     min-height: 200px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 20px;
 `
 
 export default Body

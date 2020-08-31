@@ -7,7 +7,7 @@ function Header() {
         <Wrapper>
             <img src={tacobellMe} alt="Konstadinos Angelis" width="20%" style={{borderRadius: "50%"}}/>
             <Name>Konstadinos Angelis</Name>
-            <DevDescrip>Leverage agile frameworks to provide a robust synopsis for high level overviews. </DevDescrip>
+            <DevDescrip>Front-end engineer from Beaverton, OR.</DevDescrip>
         </Wrapper>
 )}
 
