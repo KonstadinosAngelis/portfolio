@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Navbar from './components/Navbar'
-import Body from './components/Body'
+import Languages from './components/Languages'
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
         <Header />
         <Navbar />
-        <Body />
+        <Languages />
     </div>
   );
 }

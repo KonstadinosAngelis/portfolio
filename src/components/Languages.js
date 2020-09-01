@@ -7,7 +7,7 @@ import javascriptSymbol from '../imgs/javascript.png'
 import postgresSymbol from '../imgs/postgres.jpg'
 import reduxSymbol from '../imgs/redux.jpg'
 
-function Body() {
+function Languages() {
     return (
         <Wrapper>
             <LanguageHeader>Languages</LanguageHeader>
@@ -56,4 +56,4 @@ const CodeSkill = styled.div`
     font-size: 20px;
 `
 
-export default Body
+export default Languages
