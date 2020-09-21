@@ -61,6 +61,12 @@ const ProjectCard = styled.div`
     margin: 1% 0%;
     padding: 1% 1%;
 `
+const ProjectTest = styled.div`
+    width: 25%;
+    color: blue;
+    text-align: center;
+    display: flex;
+`
 
 const ProjectName = styled.h3`
     color: red;
