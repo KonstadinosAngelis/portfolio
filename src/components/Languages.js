@@ -33,7 +33,12 @@ const Wrapper = styled.div`
     width: 80%;
     border: 1px solid white;
 `
-
+const codeWrap = styled.div`
+    width: 30%;
+    color: #45189A;
+    border: 1px solid gray;
+    border-radius: 10px;
+`
 const MySkills = styled.div`
     width: 90%;
     display: flex;
