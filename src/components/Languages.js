@@ -34,14 +34,6 @@ const Wrapper = styled.div`
     border: 1px solid white;
 `
 
-const newStyleDiv = styled.div`
-    width:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #545454;
-`
-
 const MySkills = styled.div`
     width: 90%;
     display: flex;
