@@ -99,7 +99,9 @@ const ButtonWrapper = styled.form`
 const ProjectButton = styled.button`
     border: 0px solid gray;
     margin: 0% 4%;
+    padding: 2% 4%;
     background-color: white-smoke;
+    border-radius: 6px;
 
     &:hover {
         background-color: gainsboro;
