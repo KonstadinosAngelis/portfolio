@@ -85,10 +85,6 @@ const ProjectImg = styled.img`
     margin: auto;
 `
 
-const ProjectName = styled.h3`
-    color: #636363;
-`
-
 const ProjectDescrip = styled.p`
     color: black;
 `
