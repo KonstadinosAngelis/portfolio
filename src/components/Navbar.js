@@ -23,15 +23,14 @@ function Navbar(props){
 )}
 
 const NavBar = styled.nav`
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
-    width: 80%;
     border: 1px solid white;
     border-radius: 5px 5px 0px 0px;
     padding: 1.5% 0%;
     background-color: #F7F7F7;
-    position: ${props => props.stick ? "fixed" : "relative"}
+    position: ${props => props.stick ? "fixed" : "relative"};
 `
 
 const NavButton = styled.button`
@@ -40,6 +39,11 @@ const NavButton = styled.button`
     margin: 0% 2%;
     border: 0px gray solid;
     border-radius: 6px;
+
+    &:hover {
+        background-color: gainsboro;
+        text-decoration: underline;
+    }
 `
 
 export default Navbar
