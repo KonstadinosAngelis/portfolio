@@ -13,7 +13,7 @@ function Projects(){
                     <ProjectImg src={SFMTA}/>
                     <ProjectDescrip>A web app created to help agency members identify problems with San Franciscos public transportation</ProjectDescrip>
                     <ButtonWrapper>
-                        <ProjectButton>Github</ProjectButton>
+                        <ProjectButton formAction="https://github.com/Lambda-School-Labs/sfmta-data-analysis-fe">Github</ProjectButton>
                         <ProjectButton>Deploy</ProjectButton>
                     </ButtonWrapper>
                 </ProjectCard>
@@ -22,7 +22,7 @@ function Projects(){
                     <ProjectImg src={gameOfLife}/> 
                     <ProjectDescrip>A faithful recreation of the computer science classic Conway's game of life. </ProjectDescrip>
                     <ButtonWrapper>
-                        <ProjectButton>Github</ProjectButton>
+                        <ProjectButton formAction="https://github.com/KonstadinosAngelis/game-of-life">Github</ProjectButton>
                         <ProjectButton>Deploy</ProjectButton>
                     </ButtonWrapper>
                 </ProjectCard>
@@ -31,40 +31,8 @@ function Projects(){
                     <ProjectImg src={potluckPlanner}/> 
                     <ProjectDescrip>A backend designed to supply user inputted data to organize potlucks</ProjectDescrip>
                     <ButtonWrapper>
-                        <ProjectButton>Github</ProjectButton>
-                        <ProjectButton>Deploy</ProjectButton>
-                    </ButtonWrapper>
-                </ProjectCard>
-            </ProjectsWrapper>
-
-            <ProjectsWrapper>
-                <ProjectCard>
-                    <ProjectImg href=""/> 
-                    <ProjectName>SFMTA Data Anaylsis</ProjectName>
-                    <ProjectDescrip>A web app created to help agency members identify problems with San Franciscos public transportation</ProjectDescrip>
-                    <ButtonWrapper>
-                        <ProjectButton>Github</ProjectButton>
-                        <ProjectButton>Deploy</ProjectButton>
-                    </ButtonWrapper>
-                </ProjectCard>
-
-                <ProjectCard>
-                    <ProjectImg href=""/> 
-                    <ProjectName>Game of Life</ProjectName>
-                    <ProjectDescrip>A faithful recreation of the computer science classic Conway's game of life. </ProjectDescrip>
-                    <ButtonWrapper>
-                        <ProjectButton>Github</ProjectButton>
-                        <ProjectButton>Deploy</ProjectButton>
-                    </ButtonWrapper>
-                </ProjectCard>
-                
-                <ProjectCard>
-                    <ProjectImg href=""/> 
-                    <ProjectName>Potluck Planner</ProjectName>
-                    <ProjectDescrip>A backend designed to supply user inputted data to organize potlucks</ProjectDescrip>
-                    <ButtonWrapper>
-                        <ProjectButton>Github</ProjectButton>
-                        <ProjectButton>Deploy</ProjectButton>
+                        <ProjectButton formAction="https://github.com/PotluckPlanner-devin/Node-API">Github</ProjectButton>
+                        <ProjectButton formAction="https://potluckplanner-buildweek.herokuapp.com/">Deploy</ProjectButton>
                     </ButtonWrapper>
                 </ProjectCard>
             </ProjectsWrapper>
@@ -125,7 +93,7 @@ const ProjectDescrip = styled.p`
     color: black;
 `
 
-const ButtonWrapper = styled.div`
+const ButtonWrapper = styled.form`
 `
 
 const ProjectButton = styled.button`
