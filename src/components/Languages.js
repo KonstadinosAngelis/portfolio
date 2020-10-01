@@ -32,6 +32,8 @@ const Wrapper = styled.div`
     align-items: center;
     width: 80%;
     border: 1px solid white;
+    border-bottom: 1px solid lightgray;
+    padding: 2% 0%;
 `
 
 const MySkills = styled.div`

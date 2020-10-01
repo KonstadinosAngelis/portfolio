@@ -47,12 +47,11 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid lightgray;
-    padding-bottom: 2%;
+    padding: 2% 0%;
 `
 
 const HeaderText = styled.h2`
     color: #636363;
-    padding: 2% 0%;
 `
 
 const ProjectsWrapper = styled.div`
