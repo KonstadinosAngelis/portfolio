@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Footer = () => {
     return(
         <Wrapper>
-            <FooterText></FooterText>
+            <FooterText> </FooterText>
         </Wrapper>
 )}
 
