@@ -20,4 +20,10 @@ const FooterText = styled.h2`
     color: #636363;
 `
 
+const FooterHeader = styled.h1`
+    color: black;
+    display: flex;
+    justify-content: center;
+`
+
 export default Footer
