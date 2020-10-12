@@ -39,6 +39,7 @@ const NavButton = styled.button`
     margin: 0% 2%;
     border: 0px gray solid;
     border-radius: 6px;
+    display: block;
 
     &:hover {
         background-color: gainsboro;

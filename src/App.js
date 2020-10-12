@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar'
 import Languages from './components/Languages'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Projects />
         <Languages />
+        <Footer />
     </div>
   );
 }
