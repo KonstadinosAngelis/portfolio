@@ -16,13 +16,6 @@ const Wrapper = styled.footer`
     align-items: center;
     `
 
-const FooterDec = styled.div`
-    width: 100%;
-    display: flex;
-    color: black; 
-    border: 0px solid gray;
-`
-
 const FooterText = styled.h2`
     color: #636363;
 `
