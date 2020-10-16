@@ -8,6 +8,13 @@ const Footer = () => {
         </Wrapper>
 )}
 
+const Wrapper = styled.footer`
+    width: 80%;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    `
 
 const FooterText = styled.h2`
     color: #636363;
